@@ -70,6 +70,6 @@ if len(objpoints) > 0 and len(imgpoints) > 0:
     print("\n Camera Matrix (K):\n", K)
     print(f"fx: {fx:.2f}, fy: {fy:.2f}, cx: {cx:.2f}, cy: {cy:.2f}")
     print("Distortion Coefficients:", dist.ravel())
-    print("RMS Reprojection Error:", ret)
+    print("RMS Error:", ret)
 else:
     print("유효한 체스보드 데이터가 없어 캘리브레이션 실패")
