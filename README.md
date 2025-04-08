@@ -36,6 +36,6 @@
 - **용지:** A4 출력
 
 ## ✅ original vs rectified
-![Original vs Rectified](data/images:result_comparison.png)
+![Original vs Rectified](data/result_comparison.png)
 
 
